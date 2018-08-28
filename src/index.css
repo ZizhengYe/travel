@@ -1,0 +1,400 @@
+
+/* 首页输入*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 50%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: #00B4CC;
+}
+
+.searchButton {
+    position: absolute;
+    right: 50px;
+    top:0;
+    width: 40px;
+    height: 30px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*首页行程时间安排*/
+.InputFromTo .DayPickerInput input {
+    border: none;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.DayPickerInput input:focus {
+    outline: none;
+}
+
+.InputFromTo-to .DayPickerInput input {
+    border: none;
+    margin-left: -70px;
+    background-color: white;
+    height: 30px;
+}
+
+
+
+/*分类*/
+.terms-nav {
+    margin-bottom: 20px;
+}
+
+
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1 em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #005f5f;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1em;
+    }
+
+    /* Option 1 - Display Inline */
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
+
+
+/*地图上方搜索栏*/
+.menu {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #cccccc;
+    z-index: 1;
+}
+
+.item {
+    padding: 2px 6px;
+    cursor: default;
+    background-color: white;
+}
+
+.item-highlighted {
+    color: white;
+    background-color: #4095bf;
+}
+
+.item-class {
+    background-color: #eeeeee;
+    color: #454545;
+    font-weight: bold;
+}
+
+/*地图*/
+.map-wrapper > div {
+    height:100% ;
+    width:100% ;
+}
+
+.map-wrapper {
+    margin: 0 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    z-index: 0;
+}
+
+
+/*地标弹出格式*/
+
+.ToolTipPortal, .ToolTipPortal > div {
+    height: 300px;
+    width: 400px;
+}
+
+
+/*地点列表*/
+.places-list {
+    width: 20%;
+    float: left;
+    position: relative;
+    z-index: 49;  /*less than .ToolTipPortal > div(set by lib)*/
+    margin: 0 10px;
+}
+
+.add-to-plan-wrapper {
+    position: relative;
+}
+
+.add-to-plan {
+    position: absolute;
+    z-index:1;
+    left: 68.008px;
+    bottom: 5px;
+}
+
+.placeslist-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*.placeslist-wrapper div {*/
+    /*text-align: center;*/
+/*}*/
+
+/*.placeslist-wrapper div img {*/
+    /*width: 95% !important;*/
+    /*height: 120px !important;*/
+/*}*/
+
+
+/*每日地点列表*/
+.dates-list {
+    width: 25%;
+    float:left;
+    position: relative;
+    z-index: 51; /*more than .ToolTipPortal > div(set by lib)*/
+    top: 15px;
+}
+
+/*地点细节切换*/
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.angle {
+    position: absolute;
+    bottom: 50%;
+}
+
+.left-angle {
+}
+
+.right-angle {
+    right:0;
+}
+
+
+/*计划行程列表*/
+/*计划行程列表选择行程时间范围*/
+.swanky_wrapper > .InputFromTo {
+    position: absolute;
+    z-index: 52;
+    left: -12px;
+    top: -33px;
+}
+
+
+
+/*计划行程列表制作*/
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+.swanky_wrapper {
+    width: 95%;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #0d7a9e;
+}
+
+.swanky_wrapper label {
+    /*padding: 25px 0;*/
+    /*float: left;*/
+    /*border-bottom: 1px solid #293649;*/
+    /*position: relative;*/
+    width: 100%;
+    color: #000000;
+    -webkit-transition: text-indent .15s, height .3s;
+    transition: text-indent .15s, height .3s;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*.swanky_wrapper label img {*/
+    /*margin-right: 10px;*/
+    /*position: relative;*/
+    /*top: 2px;*/
+    /*width: 16px;*/
+/*}*/
+
+.swanky_wrapper label span {
+    position: relative;
+    font-size: 14px;
+    top: -3px;
+}
+
+.swanky_wrapper label:hover {
+    /*border-bottom: 1px solid #2A394F;*/
+    /*text-indent: 4px;*/
+    background-color: yellow;
+}
+
+/*.swanky_wrapper label .lil_arrow {*/
+    /*width: 5px;*/
+    /*height: 5px;*/
+    /*-webkit-transition: transform 0.8s;*/
+    /*-webkit-transition: -webkit-transform 0.8s;*/
+    /*transition: -webkit-transform 0.8s;*/
+    /*transition: transform 0.8s;*/
+    /*transition: transform 0.8s, -webkit-transform 0.8s;*/
+    /*-webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+    /*border-top: 2px solid white;*/
+    /*border-right: 2px solid white;*/
+    /*float: right;*/
+    /*position: relative;*/
+    /*top: 6px;*/
+    /*right: 12px;*/
+    /*-webkit-transform: rotate(45deg);*/
+    /*transform: rotate(45deg);*/
+/*}*/
+
+.swanky_wrapper__content {
+    position: relative;
+    display: none;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+}
+
+.swanky_wrapper__content li {
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+    background: rgb(255, 255, 255);
+    padding: 25px 0px;
+    text-indent: 25px;
+    box-shadow: 0px 0px #126CA1 inset;
+    -webkit-transition: box-shadow .3s, text-indent .3s;
+    transition: box-shadow .3s, text-indent .3s;
+    position: relative;
+    /*border-bottom: 1px black;*/
+}
+
+.swanky_wrapper__content li:hover {
+    background: #8acfe4;
+    text-indent: 31px;
+}
+
+.swanky_wrapper__content .clear {
+    clear: both;
+}
+
+input[type='radio']:checked + label .swanky_wrapper__content {
+    display: block;
+    top: 25px;
+    /*border-bottom: 1px solid #212e41;*/
+}
+
+/*input[type="radio"]:checked + label > .lil_arrow {*/
+    /*-webkit-transition: -webkit-transform 0.8s;*/
+    /*transition: -webkit-transform 0.8s;*/
+    /*transition: transform 0.8s;*/
+    /*transition: transform 0.8s, -webkit-transform 0.8s;*/
+    /*-webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+    /*-webkit-transform: rotate(135deg);*/
+    /*transform: rotate(135deg);*/
+    /*border-top: 2px solid #14a3f9;*/
+    /*border-right: 2px solid #14a3f9;*/
+/*}*/
+
+input[type='radio']:checked + label {
+    overflow: auto;
+    background: #40afc2;
+    text-indent: 4px;
+    -webkit-transition-property: height;
+    transition-property: height;
+    -webkit-transition-duration: .1s;
+    transition-duration: .1s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+input[type='radio']:checked + label li {
+    opacity: 1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
