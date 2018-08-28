@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7becc2e-5316-4835-8ba3-4eaf5e16fe84" name="Default" comment="" />
+    <list default="true" id="f7becc2e-5316-4835-8ba3-4eaf5e16fe84" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/reducers/searchPlacesResults.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
               <folding>
                 <element signature="e#0#84#0" expanded="true" />
               </folding>
@@ -30,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/actions/api/planAPI.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="638">
-              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -42,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/PlanList/Dates/travelDates.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1682">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -54,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/PlanList/Places/places_one_day.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -62,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="318">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -74,20 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="placesSearch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/Map/placesSearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="609">
+              <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -103,6 +98,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,12 +175,13 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="3541" />
-    <option name="y" value="460" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-122" />
+    <option name="y" value="39" />
     <option name="width" value="2289" />
     <option name="height" value="1332" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -200,19 +199,6 @@
               <item name="Globaleur" type="b2602c69:ProjectViewProjectNode" />
               <item name="Globaleur" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Globaleur" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Globaleur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Globaleur" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Globaleur" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Globaleur" type="b2602c69:ProjectViewProjectNode" />
@@ -321,12 +307,12 @@
       <workItem from="1534496500361" duration="98744000" />
       <workItem from="1534891993753" duration="54096000" />
       <workItem from="1535136519431" duration="12508000" />
-      <workItem from="1535351444489" duration="39454000" />
+      <workItem from="1535351444489" duration="43438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="774564000" />
+    <option name="totallyTimeSpent" value="778548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,18 +324,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2560" y="-20" width="3840" height="2180" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="35" width="2560" height="1405" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15068494" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32979664" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.22734499" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32949513" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.19612591" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979664" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32949513" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32979664" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.45750263" />
+      <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.25478843" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.18511957" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,7 +344,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32979664" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,6 +368,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -653,6 +664,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/searchPlacesResults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/api/planAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/PlanList/Dates/travelDates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/PlanList/Places/places_one_day.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -663,50 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/searchPlacesResults.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/api/planAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/PlanList/Dates/travelDates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1682">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/Map/placesSearch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/PlanPage/PlanList/Places/places_one_day.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="609">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -715,18 +733,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="318">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

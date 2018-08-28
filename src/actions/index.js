@@ -37,7 +37,8 @@ const Yelp_Bearer_Token = 'Bearer k9q0SjdY2lxkF9on0k8OlLZcUCKV3uzSUEyoNZgdSwqaoz
 
 export const fetchHotels = () => async ( dispatch, getState ) => {
     const {
-        city
+        city,
+        day
     } = getState()
 
     const request = axios({
